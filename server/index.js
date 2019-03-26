@@ -37,6 +37,10 @@ async function start() {
 
   io.on('connection', function(socket) {
     console.log(socket.id)
+    socket.on('SEND_MESSAGE', function(data) {
+      console.log(data)
+      io.emit('MESSAGE', data)
+    })
   })
 }
 start()
