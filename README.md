@@ -1,6 +1,6 @@
 # nuxy
 
-> My super-excellent Nuxt.js project
+> A chat app built with nuxt.js and socket.io
 
 ## Build Setup
 
@@ -19,4 +19,3 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
