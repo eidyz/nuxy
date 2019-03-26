@@ -62,7 +62,7 @@ export default {
       } else {
         this.socket.emit('SEND_MESSAGE', {
           id: uuidv4(),
-          user: this.username,
+          username: this.username,
           message: this.message
         })
         this.message = null
