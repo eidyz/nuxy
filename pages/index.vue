@@ -1,7 +1,7 @@
 <template>
   <div class="container pt-3">
     <div class="row">
-      <div class="col-6 mx-auto text-center">
+      <div class="col-10 col-md-6 mx-auto text-center">
         <form @submit.prevent="submit()">
           <input v-model="username" type="text" maxlength="16" placeholder="Type your username">
         </form>

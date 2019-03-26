@@ -32,8 +32,14 @@ $green: #50fa7b;
   background-color: $green;
 }
 
-::-webkit-scrollbar { 
-  display: none; 
+.rounded {
+  @media (max-width: 575.98px) {
+    border-radius: 0 !important;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -57,12 +63,12 @@ body {
     overflow-y: scroll;
 
     //REFACTOR THIS !!!
-    .msg-left{
+    .msg-left {
       max-width: 75%;
       font-weight: bold;
       background-color: $black-accent;
     }
-    .msg-right{
+    .msg-right {
       max-width: 75%;
       font-weight: bold;
       background-color: $purple;
